@@ -10,4 +10,4 @@ matrix:
 before_install:
   - travis_wait pod repo update --verbose
 install:
-  - pod install
+  - pod install --no-repo-update --verbose
