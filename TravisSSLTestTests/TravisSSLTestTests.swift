@@ -35,6 +35,7 @@ class TravisSSLTestTests: XCTestCase {
                 print(response)
                 print(data)
                 print(error)
+                expectation.fulfill()
         }
         
         waitForExpectationsWithTimeout(timeout, handler: nil)
