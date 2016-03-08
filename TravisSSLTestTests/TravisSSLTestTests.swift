@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import Alamofire
 @testable import TravisSSLTest
 
 class TravisSSLTestTests: XCTestCase {
@@ -22,8 +23,21 @@ class TravisSSLTestTests: XCTestCase {
     }
     
     func testExample() {
+        let timeout: NSTimeInterval = 30.0
+        let URLString = "https://mobile.validic.com:443/"
+        let expectation = expectationWithDescription("GET request should succeed: \(URLString)")
+        
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        Alamofire.request(.GET, URLString)
+            .response { request, response, data, error in
+                print(request)
+                print(response)
+                print(data)
+                print(error)
+        }
+        
+        waitForExpectationsWithTimeout(timeout, handler: nil)
     }
     
     func testPerformanceExample() {
