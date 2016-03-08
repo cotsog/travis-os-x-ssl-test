@@ -330,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TravisSSLTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.TravisSSLTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,6 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TravisSSLTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.TravisSSLTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,6 +392,7 @@
 				8CA4B2BC1C8E8D1B0049FF1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CA4B2BD1C8E8D1B0049FF1B /* Build configuration list for PBXNativeTarget "TravisSSLTestTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +401,7 @@
 				8CA4B2BF1C8E8D1B0049FF1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
