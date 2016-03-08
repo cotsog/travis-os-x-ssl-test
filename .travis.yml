@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode7.2
 xcode_workspace: TravisSSLTest.xcworkspace
-xcode_scheme: TravisSSLTestTests
+xcode_scheme: TravisSSLTest
